@@ -9,7 +9,7 @@ output: pdf_document
 
 This this repository is dedicated to text mining of reports, key-words, and legal documents produced by transnational municipal networks (Database ETMUN) and URBACT programme (EUCICOP).
 
-Apart from the text corpora, all other data come from the EUCICOP and ETMUN databases, as constructed and discussed in chapters 3 ([Repo_Chap3](https://github.com/pgourdongeo/Chap3_LocationalAnalysis)) and 4  ([Repo_Chap4](https://github.com/pgourdongeo/Chap4_NetworkAnalysis)) .
+Apart from the text corpora, all other data come from the EUCICOP and ETMUN databases, as constructed and discussed in  [chapter 3](https://github.com/pgourdongeo/Chap3_LocationalAnalysis) and  [chapter 4](https://github.com/pgourdongeo/Chap4_NetworkAnalysis) .
 
 
 
