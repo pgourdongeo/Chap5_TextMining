@@ -95,7 +95,7 @@ listKwords <- listKwords[listKwords != ""]
 
 # Spread KW into columns
 for(i in 1:length(listKwords)) {
-  ProjectURBACT[,listKwords[i]] <- grepl(listKwords[[i]],ProjectURBACT$Kwords)
+  ProjectURBACT[,listKwords[i]] <- as.integer(grepl(listKwords[[i]],ProjectURBACT$Kwords))
 }
 
 ### Convert True/False in 0/1

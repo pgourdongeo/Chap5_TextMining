@@ -109,6 +109,11 @@ wordcloud(words = Top100$word, freq = Top100$n, min.freq = 1,
 
 
 ## pct type of POS
+stats <- txt_freq(parsedtxt$pos[!parsedtxt$pos == "PUNCT"])
+ggplot(stats) +
+  geom_bar(aes(x = reorder(key, -freq_pct), y = freq_pct), stat = "identity") +
+  coord_flip() + theme_bw()
+
 stats <- txt_freq(CleanParsedText$pos)
 ggplot(stats) +
   geom_bar(aes(x = reorder(key, -freq_pct), y = freq_pct), stat = "identity") +

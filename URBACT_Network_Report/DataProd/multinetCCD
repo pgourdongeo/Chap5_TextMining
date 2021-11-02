@@ -1,0 +1,179 @@
+#TYPE
+multiplex
+
+#VERSION
+3.0
+
+#LAYERS
+Contacts,DIRECTED,LOOPS
+Visits,DIRECTED,LOOPS
+Semantic,UNDIRECTED,LOOPS
+SemanticField2,UNDIRECTED,LOOPS
+SimilDeclared,DIRECTED,LOOPS
+
+#ACTOR ATTRIBUTES
+
+#VERTEX ATTRIBUTES
+Contacts,name,string
+Visits,name,string
+Semantic,name,string
+SemanticField2,name,string
+SimilDeclared,name,string
+
+#EDGE ATTRIBUTES
+
+#ACTORS
+Amarante
+Radlin
+Naas
+Valasske Mezirici
+Medina del Campo
+Petrinja
+Idrija
+Heerlen
+Nort-sur-Erdre
+San Dona di Piave
+
+#VERTICES
+Amarante,Contacts,Amarante
+Radlin,Contacts,Radlin
+Naas,Contacts,Naas
+Valasske Mezirici,Contacts,Valasske Mezirici
+Medina del Campo,Contacts,Medina del Campo
+Heerlen,Contacts,Heerlen
+Nort-sur-Erdre,Contacts,Nort-sur-Erdre
+San Dona di Piave,Contacts,San Dona di Piave
+Amarante,Visits,Amarante
+Radlin,Visits,Radlin
+Naas,Visits,Naas
+Valasske Mezirici,Visits,Valasske Mezirici
+Medina del Campo,Visits,Medina del Campo
+Petrinja,Visits,Petrinja
+Idrija,Visits,Idrija
+Heerlen,Visits,Heerlen
+Nort-sur-Erdre,Visits,Nort-sur-Erdre
+San Dona di Piave,Visits,San Dona di Piave
+Amarante,Semantic,Amarante
+Radlin,Semantic,Radlin
+Naas,Semantic,Naas
+Valasske Mezirici,Semantic,Valasske Mezirici
+Medina del Campo,Semantic,Medina del Campo
+Petrinja,Semantic,Petrinja
+Idrija,Semantic,Idrija
+Heerlen,Semantic,Heerlen
+Nort-sur-Erdre,Semantic,Nort-sur-Erdre
+San Dona di Piave,Semantic,San Dona di Piave
+Amarante,SemanticField2,Amarante
+Radlin,SemanticField2,Radlin
+Naas,SemanticField2,Naas
+Valasske Mezirici,SemanticField2,Valasske Mezirici
+Medina del Campo,SemanticField2,Medina del Campo
+Petrinja,SemanticField2,Petrinja
+Idrija,SemanticField2,Idrija
+Heerlen,SemanticField2,Heerlen
+Nort-sur-Erdre,SemanticField2,Nort-sur-Erdre
+San Dona di Piave,SemanticField2,San Dona di Piave
+Amarante,SimilDeclared,Amarante
+Radlin,SimilDeclared,Radlin
+Naas,SimilDeclared,Naas
+Valasske Mezirici,SimilDeclared,Valasske Mezirici
+Medina del Campo,SimilDeclared,Medina del Campo
+Idrija,SimilDeclared,Idrija
+Heerlen,SimilDeclared,Heerlen
+Nort-sur-Erdre,SimilDeclared,Nort-sur-Erdre
+San Dona di Piave,SimilDeclared,San Dona di Piave
+
+#EDGES
+Amarante,Medina del Campo,Contacts
+San Dona di Piave,Heerlen,Contacts
+Radlin,Valasske Mezirici,Contacts
+Heerlen,Medina del Campo,Contacts
+Heerlen,San Dona di Piave,Contacts
+Heerlen,Naas,Contacts
+Medina del Campo,San Dona di Piave,Contacts
+Medina del Campo,Valasske Mezirici,Contacts
+San Dona di Piave,Medina del Campo,Contacts
+Medina del Campo,Radlin,Contacts
+Medina del Campo,Amarante,Contacts
+Medina del Campo,Naas,Contacts
+Nort-sur-Erdre,San Dona di Piave,Contacts
+Naas,Heerlen,Contacts
+San Dona di Piave,Idrija,Visits
+San Dona di Piave,Amarante,Visits
+Naas,Amarante,Visits
+Naas,Nort-sur-Erdre,Visits
+Radlin,Medina del Campo,Visits
+Nort-sur-Erdre,Amarante,Visits
+Naas,Heerlen,Visits
+Naas,Radlin,Visits
+Naas,Valasske Mezirici,Visits
+Naas,Idrija,Visits
+San Dona di Piave,Radlin,Visits
+Idrija,Petrinja,Visits
+Idrija,Radlin,Visits
+Nort-sur-Erdre,Medina del Campo,Visits
+Radlin,Idrija,Visits
+Naas,Petrinja,Visits
+Nort-sur-Erdre,Naas,Visits
+Medina del Campo,Idrija,Visits
+Nort-sur-Erdre,Heerlen,Visits
+San Dona di Piave,Petrinja,Visits
+Idrija,Valasske Mezirici,Visits
+Nort-sur-Erdre,Petrinja,Visits
+San Dona di Piave,Heerlen,Visits
+Naas,Medina del Campo,Visits
+San Dona di Piave,Valasske Mezirici,Visits
+Medina del Campo,Heerlen,Visits
+San Dona di Piave,Nort-sur-Erdre,Visits
+San Dona di Piave,Naas,Visits
+Nort-sur-Erdre,Idrija,Visits
+Idrija,San Dona di Piave,Visits
+Medina del Campo,Naas,Visits
+Medina del Campo,Amarante,Visits
+Medina del Campo,Petrinja,Visits
+Medina del Campo,Nort-sur-Erdre,Visits
+Amarante,Heerlen,Visits
+Amarante,Idrija,Visits
+Amarante,Petrinja,Visits
+Naas,San Dona di Piave,Visits
+Amarante,Heerlen,Semantic
+Radlin,Petrinja,Semantic
+Valasske Mezirici,Medina del Campo,Semantic
+Heerlen,Medina del Campo,Semantic
+Valasske Mezirici,Radlin,Semantic
+Nort-sur-Erdre,Medina del Campo,Semantic
+Amarante,San Dona di Piave,Semantic
+Amarante,Medina del Campo,Semantic
+Naas,San Dona di Piave,Semantic
+Idrija,Medina del Campo,Semantic
+Nort-sur-Erdre,Valasske Mezirici,Semantic
+Amarante,Idrija,Semantic
+Naas,Medina del Campo,Semantic
+Radlin,Medina del Campo,Semantic
+Amarante,Petrinja,Semantic
+San Dona di Piave,Medina del Campo,Semantic
+Amarante,Medina del Campo,SemanticField2
+Medina del Campo,San Dona di Piave,SemanticField2
+Nort-sur-Erdre,Amarante,SemanticField2
+Naas,Medina del Campo,SemanticField2
+Radlin,Petrinja,SemanticField2
+Idrija,Medina del Campo,SemanticField2
+Amarante,Petrinja,SemanticField2
+Heerlen,Amarante,SemanticField2
+Amarante,San Dona di Piave,SemanticField2
+Idrija,San Dona di Piave,SemanticField2
+Naas,San Dona di Piave,SemanticField2
+Nort-sur-Erdre,Medina del Campo,SemanticField2
+Radlin,Valasske Mezirici,SemanticField2
+Medina del Campo,Valasske Mezirici,SemanticField2
+Radlin,Medina del Campo,SemanticField2
+Heerlen,Medina del Campo,SemanticField2
+San Dona di Piave,Heerlen,SimilDeclared
+Medina del Campo,Amarante,SimilDeclared
+Nort-sur-Erdre,Idrija,SimilDeclared
+Radlin,Valasske Mezirici,SimilDeclared
+Idrija,Valasske Mezirici,SimilDeclared
+Idrija,Amarante,SimilDeclared
+Naas,San Dona di Piave,SimilDeclared
+Heerlen,San Dona di Piave,SimilDeclared
+
